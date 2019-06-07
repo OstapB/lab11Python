@@ -7,7 +7,7 @@ from model.Screwdriver import Screwdriver
 
 
 def main():
-    tools_hammer_machine = HammerMachine("Hummer", 100, Function.CUTTING, "Ukraine", 2000, FurnitureType.IRON, 2000, 10)
+    tools_hammer_machine = HammerMachine("Hummer", 100, Function.CUTTING, "Ukraine", 2500, FurnitureType.IRON, 2000, 10)
     tools_press_machine = PressMachine("Hulk", 210, Function.FASTENING, "Italy", 1500, FurnitureType.IRON, 200)
     tools_screwdriver = Screwdriver("Flash", 220, Function.CUTTING, "Germany", 1000, FurnitureType.WOODEN, 300)
 
